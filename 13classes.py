@@ -57,10 +57,10 @@ class Mammal:
     def walk(self):
         print("walk")
 
-class Dog(Mammal)
+class Dog(Mammal):
     pass
 
-class Cat (Mammal)
+class Cat (Mammal):
     pass
 
 
