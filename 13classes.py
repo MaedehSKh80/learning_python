@@ -1,3 +1,37 @@
+# # class Point:
+# #     def __init__(self, x , y) :
+# #         self.x=x
+# #         self.y=y
+
+# #     def mov(self):
+# #         print('move')
+
+# #     def draw (self):
+# #         print('draw')
+# # Point = Point (40,20) 
+# # print (Point.x)
+
+
+# ---------------------------------------
+
+# class Person:
+#     def __init__(self, name) :
+#         self.name = name
+
+#     def talk(self):
+#         print(f"hello, I'm {self.name}")
+
+# john = Person("John smith")
+# john.talk()
+
+# Bob = Person("Bob smith")
+# Bob.talk()
+
+
+# ---------------------------------------
+
+
+
 # class Point:
 #     def __init__(self, x , y) :
 #         self.x=x
@@ -11,16 +45,22 @@
 # Point = Point (40,20) 
 # print (Point.x)
 
-class Person:
+
+# ---------------------------------------
+
+
+
+class Mammal:
     def __init__(self, name) :
         self.name = name
 
-    def talk(self):
-        print(f"hello, I'm {self.name}")
+    def walk(self):
+        print("walk")
 
-john = Person("John smith")
-john.talk()
+class Dog(Mammal)
+    pass
 
-Bob = Person("Bob smith")
-Bob.talk()
+class Cat (Mammal)
+    pass
+
 
